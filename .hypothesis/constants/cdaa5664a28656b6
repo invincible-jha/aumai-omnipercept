@@ -1,0 +1,4 @@
+# file: M:\Project DarkMatter\workspace\aumai-omnipercept\src\aumai_omnipercept\models.py
+# hypothesis_version: 6.151.9
+
+[0.0, 0.5, 256, 'BenchmarkResult', 'FeatureVector', 'FusedRepresentation', 'FusionStrategy', 'Modality', 'ModalityInput', 'ModelCard', 'PerceptionResult', 'PipelineConfig', 'Prediction', 'TaskType', 'audio', 'captioning', 'classification', 'cross_attention', 'detection', 'early', 'generation', 'image', 'late', 'point_cloud', 'question_answering', 'retrieval', 'segmentation', 'tabular', 'text', 'video', 'weighted_sum']

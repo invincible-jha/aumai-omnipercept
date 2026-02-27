@@ -1,0 +1,4 @@
+# file: M:\Project DarkMatter\workspace\aumai-omnipercept\src\aumai_omnipercept\core.py
+# hypothesis_version: 6.151.9
+
+[0.0, 1e-10, 0.05, 0.5, 1.0, 5.0, 8.0, 12.0, 15.0, 22.0, 41.0, 86.0, 93.0, 150.0, 200.0, 350.0, 2147483648.0, 100, 128, 256, 300, 512, 768, 1000, 1080, 1920, 48000, ', ', 'AudioClassifier', 'AudioEmbedder', 'ImageEmbedder', 'MultimodalQA', 'ObjectDetector', 'PointCloudNet', 'SegmentAnything', 'TabularEncoder', 'TextClassifier', 'TextEmbedder', 'VideoCaptioner', 'VideoEmbedder', 'audio-classify-v1', 'audio-embed-v1', 'avi', 'big', 'bmp', 'csv', 'custom', 'flac', 'hash-based', 'image-detect-v1', 'image-embed-v1', 'image-segment-v1', 'jpg', 'json', 'mov', 'mp3', 'mp4', 'multimodal-qa-v1', 'parquet', 'pcd', 'ply', 'png', 'pointcloud-v1', 'tabular-v1', 'text-classify-v1', 'text-embed-v1', 'txt', 'video-caption-v1', 'video-embed-v1', 'wav', 'webp', 'xyz']

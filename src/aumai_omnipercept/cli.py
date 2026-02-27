@@ -76,7 +76,7 @@ def extract(data: str, modality: str, dim: int) -> None:
 @click.option("--dim", default=256, type=int, help="Feature dimension")
 def fuse(input_file: str, strategy: str, dim: int) -> None:
     """Fuse features from multiple modality inputs."""
-    with open(input_file) as f:
+    with open(input_file, encoding="utf-8") as f:
         data = json.load(f)
 
     extractor = FeatureExtractor()
@@ -102,9 +102,9 @@ def fuse(input_file: str, strategy: str, dim: int) -> None:
 @click.option("--input", "input_file", required=True, type=click.Path(exists=True), help="Inputs JSON file")
 def perceive(config_file: str, input_file: str) -> None:
     """Run full perception pipeline on multimodal inputs."""
-    with open(config_file) as f:
+    with open(config_file, encoding="utf-8") as f:
         config_data = json.load(f)
-    with open(input_file) as f:
+    with open(input_file, encoding="utf-8") as f:
         input_data = json.load(f)
 
     config = PipelineConfig.model_validate(config_data)
@@ -130,7 +130,7 @@ def perceive(config_file: str, input_file: str) -> None:
 @click.option("--top-k", default=5, type=int, help="Number of results")
 def search(query: str, items: str, top_k: int) -> None:
     """Search for similar items using feature similarity."""
-    with open(items) as f:
+    with open(items, encoding="utf-8") as f:
         data = json.load(f)
 
     extractor = FeatureExtractor()

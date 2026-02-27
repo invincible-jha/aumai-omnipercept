@@ -1,0 +1,4 @@
+# file: M:\Project DarkMatter\workspace\aumai-omnipercept\src\aumai_omnipercept\cli.py
+# hypothesis_version: 6.151.9
+
+[256, '--config', '--data', '--dim', '--input', '--items', '--modality', '--query', '--strategy', '--task', '--top-k', 'Feature dimension', 'Filter by modality', 'Filter by task', 'Fusion strategy', 'Input modality', 'Inputs JSON file', 'Number of results', 'Pipeline config JSON', 'Query text', '__main__', 'config_file', 'data', 'id', 'input_file', 'late', 'modality', 'text', 'utf-8']
